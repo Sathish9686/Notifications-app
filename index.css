@@ -1,0 +1,22 @@
+/* Write your code here. */
+* {
+  margin: 0px;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.main-bg-container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.Notfication1 {
+  height: 80px;
+  width: 250px;
+  background-color: #0b69ff;
+  margin: 10px;
+}
