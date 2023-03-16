@@ -1,4 +1,5 @@
 /* Write your code here. */
+
 * {
   margin: 0px;
 }
@@ -7,16 +8,66 @@ body {
   box-sizing: border-box;
 }
 
-.main-bg-container {
-  background-color: black;
+.bg-container {
+  background-color: white;
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
 }
 
-.Notfication1 {
+.Ntfn-1 {
+  background-color: blue;
   height: 80px;
-  width: 250px;
-  background-color: #0b69ff;
+  width: 500px;
+  display: flex;
+  display: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
+}
+
+.image-icon {
+  height: 30px;
   margin: 10px;
+}
+
+.text {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.Ntfn-2 {
+  background-color: green;
+  height: 80px;
+  width: 500px;
+  display: flex;
+  display: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
+}
+
+.Ntfn-3 {
+  background-color: orange;
+  height: 80px;
+  width: 500px;
+  display: flex;
+  display: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
+}
+
+.Ntfn-4 {
+  background-color: red;
+  height: 80px;
+  width: 500px;
+  display: flex;
+  display: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 15px;
 }
